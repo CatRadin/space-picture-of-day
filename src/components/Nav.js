@@ -1,5 +1,4 @@
 import React from "react";
-import Search from './Search'
 import Title from './Title'
 import "./styles.css";
 import styled from "styled-components";

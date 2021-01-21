@@ -110,3 +110,15 @@
   margin-right: -7%;
   border-radius: 1rem;
 }
+.random-btn {
+  background: white;
+  color: black;
+  border: none;
+  font-size: 1.6rem;
+  font-family: "Abel", sans-serif;
+  border-radius: 3rem;
+  font-weight: 600;
+  padding: 1.5%;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}

@@ -8,7 +8,7 @@ export default function Photo(props){
     
     return(
         <SRLWrapper>
-        <img className='pic-of-day' src={nasaData.url} alt = 'space'></img>
+        <img className='pic-of-day' src={nasaData.hdurl} alt = 'space'></img>
         </SRLWrapper>
     )
 }

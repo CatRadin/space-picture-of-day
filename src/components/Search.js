@@ -1,11 +1,20 @@
 import React from "react";
-
+import styled from "styled-components";
 
 export default function Search(props){
 
     return (
-        <form className='search-bar'>
+        <Styledform className='search-bar'>
             <label for="fname">Search: </label>
-            <input type ="text"></input></form>
+            <input type ="text"></input>
+            </Styledform>
+       
     ) 
     }
+
+    //styles
+
+
+    const Styledform = styled.form`
+    font-size: 1.3rem;
+    `

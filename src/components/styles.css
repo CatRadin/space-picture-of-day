@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
-.nav-container {
-  display: flex;
+/* .nav-container { */
+/* display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -9,16 +9,15 @@
   padding-bottom: 0.5rem;
   padding-left: 1%;
   padding-right: 1%;
-  width: 95vw;
-}
+  width: 95vw; */
+/* } */
 
-.search-bar {
+/* .search-bar {
   font-size: 1.3rem;
-}
+} */
 
 .card-container {
-  margin-top: 8%;
-  background: white;
+  margin-top: 3%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -28,9 +27,7 @@
     rgba(98, 56, 138, 0.3)
   );
   border-radius: 2rem;
-  z-index: 2;
   color: rgb(255, 255, 255);
-  /* text-shadow: 1px 1px black; */
   width: 60%;
   height: 60vh;
   font-family: "Poppins", sans-serif;
@@ -77,7 +74,7 @@
   border-radius: 2rem;
 }
 .nav-title img {
-  height: 50px;
+  height: 8rem;
 }
 
 /* .links {

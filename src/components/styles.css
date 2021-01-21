@@ -36,18 +36,6 @@
   font-family: "Poppins", sans-serif;
   word-wrap: break-word;
   white-space: pre-line;
-
-  @media (max-width 550px) {
-    flex-direction: column;
-  }
-}
-
-.pic-of-day {
-  max-width: 100%;
-  max-height: 100%;
-  transition: 0.2s;
-  margin: 1%;
-  border-radius: 1rem;
 }
 
 /* .pic-of-day:hover {
@@ -115,4 +103,13 @@
 } */
 */ .links button:hover {
   color: #5f9f9f;
+}
+
+.pic-of-day {
+  max-width: 96%;
+  max-height: 96%;
+  transition: 0.2s;
+  margin-top: 2%;
+  margin-right: -7%;
+  border-radius: 1rem;
 }

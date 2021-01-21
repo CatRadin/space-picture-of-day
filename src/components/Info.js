@@ -2,6 +2,7 @@ import React from "react";
 import moment from 'moment'; 
 
 
+
 export default function Search(props){
 
 const { nasaData } = props
@@ -14,10 +15,11 @@ return(
             <h3> {currentDate} </h3>
             <h1> {nasaData.title} </h1>
             <p>{nasaData.explanation}</p>
-            {/* <button className = 'random-btn'>Random</button> */}
+            
         </div>
     )
     
             }
 
-
+            
+           

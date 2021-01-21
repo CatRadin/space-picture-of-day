@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 /* .nav-container { */
 /* display: flex;
   justify-content: space-between;
@@ -17,7 +18,7 @@
 } */
 
 .card-container {
-  margin-top: 3%;
+  margin-top: 6%;
   display: flex;
   background: linear-gradient(
     to right bottom,
@@ -27,7 +28,7 @@
   border-radius: 2rem;
   color: rgb(255, 255, 255);
   width: 60%;
-  height: 60vh;
+  height: 50vh;
   font-family: "Poppins", sans-serif;
 }
 .card-container div {
@@ -40,8 +41,9 @@
   margin: 1rem;
   overflow: auto;
   white-space: pre-line;
-  width: 50vw;
+  width: 40vw;
   object-fit: contain;
+  margin-left: 5rem;
 }
 .info-container::-webkit-scrollbar {
   display: none;
@@ -57,8 +59,19 @@
   color: black;
 }
 
+.info-container h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  color: white;
+}
+.info-container p {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(223, 209, 236);
+}
+
 .nav-title img {
-  height: 8rem;
+  height: 9rem;
 }
 .pic-holder {
   width: 100%;
@@ -69,15 +82,20 @@
 }
 
 .pic-of-day {
-  max-height: 88%;
-  max-width: 88%;
+  max-height: 83%;
+  max-width: 87%;
   border-radius: 50%;
+  margin-right: 5.6%;
+  /* border: 0.2rem solid rgba(26, 10, 31, 0.3); */
+  box-shadow: 1px 1px 100px rgb(16, 6, 17);
+  transform: scale();
 }
 .pic-of-day:hover {
   cursor: pointer;
-  opacity: 80%;
+  box-shadow: 1px 1px 200px rgb(13, 15, 17);
+  transform: scale(1.15);
 }
-/* .random-btn {
+/* .random-btn {S
   background: white;
   color: black;
   border: none;

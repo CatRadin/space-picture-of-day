@@ -19,5 +19,5 @@ const StyledNavTitle = styled.div`
 display:flex;
 justify-content: center;
 align-items: center;
-font-size:5rem
+font-size:5.8rem
 ` 

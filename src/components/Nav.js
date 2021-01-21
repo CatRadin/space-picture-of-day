@@ -25,7 +25,7 @@ const NavContainer = styled.div`
   font-size: 2.5rem;
   padding-left: 1%;
   padding-right: 1%;
-  width: 95vw;
+  
 
   
 `

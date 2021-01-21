@@ -42,7 +42,7 @@
   margin: 1rem;
   overflow: auto;
   white-space: pre-line;
-  width: 40vw;
+  width: 50vw;
 }
 .info-container::-webkit-scrollbar {
   display: none;
@@ -106,8 +106,8 @@
   max-width: 96%;
   max-height: 96%;
   transition: 0.2s;
-  margin-top: 2%;
-  margin-right: -7%;
+  margin-top: 1.7%;
+  margin-left: 11%;
   border-radius: 1rem;
 }
 .random-btn {

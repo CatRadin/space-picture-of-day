@@ -27,6 +27,8 @@ const NavContainer = styled.div`
   padding-right: 1%;
   padding-top: 4rem;
   
-
+  @media only screen and (max-width: 600px) {
+    padding-bottom: 2rem;
+  }
   
 `

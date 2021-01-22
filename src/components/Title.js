@@ -20,4 +20,8 @@ display:flex;
 justify-content: center;
 align-items: center;
 font-size:5.8rem
+
+@media only screen and (max-width: 600px){
+    font-size: 4rem;
+}
 ` 
